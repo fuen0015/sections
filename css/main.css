@@ -1,10 +1,41 @@
 html {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Lato, sans-serif;
   line-height: 1.5rem;
   background-color: #eee9de;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  display: inline-block;
+  text-align: left;
+  padding: 2em;
+  margin: 0;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav li {
+  padding: .5em .75em;
+  border-color: #333;
+  border-radius: .4em;
+  border-style: solid;
+  list-style-type: none;
+  display: inline-block;
+}
+
+a:hover {
+  color: #666;
 }
