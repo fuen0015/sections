@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   font-family: Lato, sans-serif;
-  line-height: 1.5rem;
+  line-height: 1.5;
   background-color: #eee9de;
 }
 
@@ -10,10 +10,15 @@ html {
 }
 
 body {
-  display: inline-block;
   text-align: center;
   margin: 0;
   width: 100%;
+  padding-top: 2em;
+}
+
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 div {
@@ -21,12 +26,17 @@ div {
   vertical-align: middle;
   max-width: 25em;
   text-align: left;
+  padding: 1em;
 }
 
 img {
   width: 100%;
-  padding: 1em;
+  padding: .4em;
   display: block;
+}
+
+h2 {
+  padding: .2em 0;
 }
 
 a {
@@ -37,7 +47,7 @@ a {
   border: 3px solid #333;
   list-style-type: none;
   display: inline-block;
-  font-size: 1.1em;
+  font-size: 1.2em;
   text-decoration: none;
   color: #333;
 }
@@ -51,9 +61,10 @@ nav a:hover {
 
 p {
   margin: 0 0 1.5em;
-  padding: .2em;
+  padding: .4em;
   width: 100%;
   max-width: 25em;
+  display: inline-block;
 }
 
 .btn {
